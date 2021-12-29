@@ -20,7 +20,7 @@ async def spin(msg: str) -> None:
 
 # tag::SPINNER_ASYNC_EXPERIMENT[]
 async def slow() -> int:
-    time.sleep(3)  # <4>
+    time.sleep(10)  # <4>
     return 42
 
 async def supervisor() -> int:

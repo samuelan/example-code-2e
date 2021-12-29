@@ -20,7 +20,7 @@ async def spin(msg: str) -> None:  # <1>
     print(f'\r{blanks}\r', end='')
 
 async def slow() -> int:
-    await asyncio.sleep(3)  # <4>
+    await asyncio.sleep(10)  # <4>
     return 42
 # end::SPINNER_ASYNC_TOP[]
 
